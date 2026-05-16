@@ -10,17 +10,28 @@ This project implements core HMM algorithms from scratch, reproduces the FATHMM 
 ---
 
 ## Repository Structure
-├── setup.ipynb              # Run once: downloads data, parses ClinVar/Pfam, runs HMMER
-├── HMM.ipynb                # HMM implementation (Forward, Backward, Viterbi) + unit tests
-├── analysis.ipynb           # Main analysis: FATHMM vs ESM-1b comparison
-├── clinvar_sample.csv       # Filtered ClinVar variants (top 500 genes, 20/gene)
-├── pfam.pkl                 # Parsed Pfam emission probabilities
-├── sequences.json           # UniProt protein sequences
-├── uid_mapping.json         # Gene → UniProt ID mapping
-├── gene_mapping.json        # Gene → Pfam domain mapping (from HMMER)
-├── fathmm_input.txt         # Input file for FATHMM web server
-├── Fathmm_output.rtf        # FATHMM web server results
-└── esm1b_results.pkl        # Computed ESM-1b scores and difference vectors
+setup.ipynb              # Run once: downloads data, parses ClinVar/Pfam, runs HMMER
+
+HMM.ipynb                # HMM implementation (Forward, Backward, Viterbi) + unit tests
+
+analysis.ipynb           # Main analysis: FATHMM vs ESM-1b comparison
+
+clinvar_sample.csv       # Filtered ClinVar variants (top 500 genes, 20/gene)
+
+pfam.pkl                 # Parsed Pfam emission probabilities
+
+sequences.json           # UniProt protein sequences
+
+uid_mapping.json         # Gene → UniProt ID mapping
+
+gene_mapping.json        # Gene → Pfam domain mapping (from HMMER)
+
+fathmm_input.txt         # Input file for FATHMM web server
+
+Fathmm_output.rtf        # FATHMM web server results
+
+esm1b_results.pkl        # Computed ESM-1b scores and difference vectors
+
 
 ---
 
